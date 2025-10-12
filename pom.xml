@@ -25,7 +25,7 @@
         <module>database</module>
         <module>logic</module>
         <module>controller</module>
-        <module>web-spring</module>
+        <module>web-quarkus</module>
     </modules>
 
     <!-- common dependency management can be added here; module-specific dependencies are declared in each module POM -->
