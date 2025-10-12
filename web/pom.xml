@@ -14,12 +14,12 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.example</groupId>
+            <groupId>com.nutriscorecalc</groupId>
             <artifactId>database</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.example</groupId>
+            <groupId>com.nutriscorecalc</groupId>
             <artifactId>logic</artifactId>
             <version>${project.version}</version>
         </dependency>
