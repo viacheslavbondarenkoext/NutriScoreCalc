@@ -1,5 +1,5 @@
 (function(){
-  const apiBase = '/api/products';
+  const apiBase = '/root/api/products';
 
   function $(sel, root = document) { return root.querySelector(sel); }
 
