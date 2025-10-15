@@ -1,6 +1,8 @@
 package com.nutriscorecalc.database;
 
+import jakarta.inject.Inject;
 import jakarta.inject.Named;
+import jakarta.inject.Singleton;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jakarta.transaction.Transactional;
@@ -9,9 +11,11 @@ import java.util.List;
 import java.util.Optional;
 
 @Named
+@Singleton
 @Transactional
 public class ProductRepository {
 
+    @Inject
     @PersistenceContext
     private EntityManager em;
 
